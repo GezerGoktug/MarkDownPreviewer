@@ -1,0 +1,40 @@
+.editor {
+  min-height: 45vh;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  border: 3px groove rgb(75, 205, 125);
+}
+.editor .toolbar {
+  background-color: rgb(72, 145, 121);
+  padding: 10px 20px;
+  width: 100%;
+  border-bottom: 2px solid darkgreen;
+}
+.editor textarea {
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 45vh;
+  border: none;
+  outline: none;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 15px;
+  background-color: rgb(133, 193, 173);
+}
+@media (max-width: 992px) {
+  .editor {
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .editor {
+    width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  .editor {
+    width: 90%;
+  }
+}

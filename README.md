@@ -1,8 +1,68 @@
-# React + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**<p>In this project, I made a simple react project where you can preview the makdown version of the text entered in the text field. Marked npm package was used.</p>**
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Technologies and Libraries 🛠️
+<strong><ul>
+<li>HTML </li>  
+<li>CSS</li>  
+<li>JavaScript</li>  
+<li>React</li>  
+<li>Marked Library</li>  
+</ul></strong>
+
+
+
+
+# Deploying
+
+**<p>You can access the project live below.</p>**
+
+<a href="https://markdown-previewer-web-site.netlify.app/">https://markdown-previewer-web-site.netlify.app/</a>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+## SETUP
+
+1.**Download the repository**
+
+```
+git clone https://github.com/GezerGoktug/MarkDownPreviewer.git
+```
+
+2.**Enter the project directory**
+
+```
+cd MarkDownPreviewer
+```
+
+3.**Install Required Dependencies**
+
+```
+npm install
+```
+
+4.**Start the application**
+
+```
+npm start
+```
+
+5.**Show in browser**
+
+Go to `http://localhost:3000` in your browser.
+
+
+## Contribute 🤝
+
+- You can use the [Issues](https://github.com/GezerGoktug/MarkDownPreviewer) tab for bug reports and suggestions.
+- If you want to contribute to the project, create a fork and submit a pull request.
